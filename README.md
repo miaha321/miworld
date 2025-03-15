@@ -26,4 +26,5 @@ git remote add origin "link"
 ```
 git push -u origin main
 ```
+once you did everything, open the folder in cmd, and type ```npm instal```
 
