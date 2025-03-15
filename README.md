@@ -13,3 +13,17 @@ rm -rf .git # if rm doesn't work, try del
 git init
 ```
 `new-project` - is your project name
+```bash
+git add *
+```
+```bash
+git commit -m "commit name"
+```
+create a reprository in github, and copy its link
+```bash
+git remote add origin "link"
+```
+```
+git push -u origin main
+```
+
