@@ -1,11 +1,19 @@
 import './App.css';
 import React from "react"
+import Scnece from './Components/Scene';
+import { Canvas } from '@react-three/fiber';
 
 function App() {
   return (
     <div className="App">
-      <h1>react template</h1>
-      <p>Start template fpr react-projects</p>
+      <h1>mincraft interactive world</h1>
+      <Canvas
+        shadows
+        camera={{ postion: [5, 10, 10], fov: 50 }}
+        style={{ width:"100ww", height:"100ww", background:"#B3E5FC"}}
+      >
+          <Scnece></Scnece>
+      </Canvas>
     </div>
   );
 }
